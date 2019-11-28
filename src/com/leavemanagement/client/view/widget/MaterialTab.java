@@ -45,6 +45,9 @@ public class MaterialTab extends Composite {
 	MaterialColumn tab8;
 
 	@UiField
+	MaterialColumn tab9;
+
+	@UiField
 	MaterialTabItem tabTimeReport;
 
 	@UiField
@@ -101,6 +104,14 @@ public class MaterialTab extends Composite {
 
 	public MaterialTabItem getTabLeaveHistory() {
 		return tabLeaveHistory;
+	}
+
+	public MaterialColumn getTab9() {
+		return tab9;
+	}
+
+	public void setTab9(MaterialColumn tab9) {
+		this.tab9 = tab9;
 	}
 
 }

@@ -6,19 +6,19 @@
 http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
 	default-lazy-init="true">
 
-	<!-- Datasource for LOCAL database connection  
+	<!-- Datasource for LOCAL database connection  	-->
       
    	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost/leavedb" />
+		<property name="url" value="jdbc:mysql://localhost/leavehyphennew" />
 		<property name="username" value="root" />
 		<property name="password" value="0502" />
 
 	</bean>
-	-->
+
 	 <!--
-	 -->
+	
 	   	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -26,7 +26,8 @@ http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
 		<property name="username" value="rms2019_root" />
 		<property name="password" value="Password1" />
 
-	</bean>  
+	</bean> 
+	 --> 
 	 <!-- 
     <bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">

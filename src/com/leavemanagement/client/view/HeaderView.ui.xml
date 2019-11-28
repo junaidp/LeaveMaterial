@@ -4,8 +4,7 @@
 	xmlns:m="urn:import:gwt.material.design.client.ui">
 
 <m:MaterialNavBar ui:field="nav" >
-<m:MaterialImage float="LEFT" url="suhaimilogo.png" width="200px" height="50px"/>
-<m:MaterialNavBrand float="LEFT" href="#Test"  text="Resource Management System" ui:field="lblRSM" />
+<m:MaterialNavBrand float="LEFT" href="#Test"  text="Hyphen Resource Management System" ui:field="lblRSM" />
 <m:MaterialNavSection float="RIGHT" ui:field="navSection" >
 <m:MaterialLink iconType="ACCOUNT_CIRCLE" float="LEFT" text="Add User" textColor="WHITE" ui:field="addUser"/>
 <m:MaterialLink iconType="HISTORY" float="LEFT" text="Leave History" textColor="WHITE"  ui:field="leaveHistory"/>

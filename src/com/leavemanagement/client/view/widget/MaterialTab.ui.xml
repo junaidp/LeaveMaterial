@@ -41,6 +41,9 @@
 <m:MaterialLink text="Time Report" href="#tab8" textColor="WHITE"/>
 </m:MaterialTabItem>
 
+<m:MaterialTabItem waves="YELLOW" grid="s4" visible="true" ui:field="tabNewProject">
+<m:MaterialLink text="New Project" href="#tab9" textColor="WHITE"/>
+</m:MaterialTabItem>
 
 </m:MaterialTab>
 
@@ -67,6 +70,9 @@
 </m:MaterialColumn>
 
 <m:MaterialColumn m:id="tab8" grid="s12" ui:field="tab8">
+</m:MaterialColumn>
+
+<m:MaterialColumn m:id="tab9" grid="s12" ui:field="tab9">
 </m:MaterialColumn>
 
 

@@ -315,11 +315,12 @@ public class MySQLRdbHelper {
 			session.save(leaveRecord);
 			User user = fetchUser(leaveRecord.getUserId().getReportingTo());
 			session.flush();
-			// 2019 july changing mail of sir faheem
+			// 2019 july changing mail of sir faheem for hyphen again changed to
+			// sir faheem's
 			sendEmail(
 					"Leave Request Received: from " + leaveRecord.getUserId().getName() + ", Reason : "
 							+ leaveRecord.getReason(),
-					user.getEmail(), "n.sohail@alsuhaimi.net", "Leave Request Received");
+					user.getEmail(), "faheem.piracha@hyphenconsultancy.com", "Leave Request Received");
 
 		} catch (Exception ex) {
 			logger.warn(String.format("Exception occured in saveLeaveRequest", ex.getMessage()), ex);

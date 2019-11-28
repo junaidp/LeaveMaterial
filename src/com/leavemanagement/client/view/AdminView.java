@@ -99,6 +99,7 @@ public class AdminView extends MaterialColumn implements IsWidget, Display {
 		tab.getTab7().add(new TimeSheetTree(loggedInUser));
 		tab.getTab8().add(new HTML("&nbsp"));
 		tab.getTab8().add(new TimeSheetReportView(loggedInUser));
+		tab.getTab9().add(new TimeSheetReportView(loggedInUser));
 
 		if (loggedInUser.getRoleId().getRoleId() == 5) {
 			tab.getTabTimeReport().setVisible(true);
